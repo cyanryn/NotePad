@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/color">
+        <menu>
+            <!-- 定义一组单选菜单项 -->
+            <group android:checkableBehavior="single">
+                <!-- 定义多个菜单项 -->
+                <item android:id="@+id/red"
+                    android:title="@string/color_red"/>
+                <item android:id="@+id/green"
+                    android:title="@string/color_green"/>
+                <item android:id="@+id/blue"
+                    android:title="@string/color_blue"/>
+            </group>
+        </menu>
+    </item>
+</menu>
